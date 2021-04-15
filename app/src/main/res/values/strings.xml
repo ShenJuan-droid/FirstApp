@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">FirstApp</string>
     <string name="str">Hello</string>
+    <string name="label_add1">+1 point</string>
+    <string name="label_add2">+2 points</string>
+    <string name="label_add3">+3 points</string>
+    <string name="but_reset_label">Reset</string>
 </resources>
