@@ -1,8 +1,15 @@
 <resources>
-    <string name="app_name">FirstApp</string>
-    <string name="str">Hello</string>
+
+    <string name="app_name">App</string>
+
     <string name="label_add1">+1 point</string>
     <string name="label_add2">+2 points</string>
     <string name="label_add3">+3 points</string>
     <string name="but_reset_label">Reset</string>
+
+
+    <string name="btn_dollar">dollar</string>
+    <string name="btn_euro">euro</string>
+    <string name="btn_won">won</string>
+    <string name="input_hint">input_RMB</string>
 </resources>

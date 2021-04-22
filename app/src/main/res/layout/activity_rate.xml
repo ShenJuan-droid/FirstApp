@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".rateActivity">
+
+    <EditText
+        android:id="@+id/input_rmb"
+        android:hint="@string/input_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:text="Hello" />
+
+    <Button
+        android:id="@+id/btn_dollar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="onclick"
+        android:text="@string/btn_dollar"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btn_euro"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="onclick"
+        android:text="@string/btn_euro"
+        tools:ignore="DuplicateIds,OnClick" />
+
+    <Button
+        android:id="@+id/btn_won"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:onClick="onclick"
+        android:text="@string/btn_won"
+        tools:ignore="OnClick" />
+</LinearLayout>
