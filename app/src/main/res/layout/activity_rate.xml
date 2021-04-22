@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".rateActivity">
+    tools:context=".RateActivity">
 
     <EditText
         android:id="@+id/input_rmb"
@@ -30,7 +30,7 @@
         android:id="@+id/btn_dollar"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="11dp"
         android:onClick="onclick"
         android:text="@string/btn_dollar"
         tools:ignore="OnClick" />
@@ -39,7 +39,7 @@
         android:id="@+id/btn_euro"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="11dp"
         android:onClick="onclick"
         android:text="@string/btn_euro"
         tools:ignore="DuplicateIds,OnClick" />

@@ -37,7 +37,7 @@ public class RateActivity extends AppCompatActivity {
             float val = r * 6.7f;
             result.setText(String.valueOf(val));
         }else if(btn.getId() == R.id.btn_euro){
-            float val = r * 11;
+            float val = r * 11f;
             result.setText(val + "");
         }else{
             float val = r * 500;
