@@ -31,24 +31,30 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginBottom="11dp"
-        android:onClick="onclick"
-        android:text="@string/btn_dollar"
-        tools:ignore="OnClick" />
+        android:onClick="onClick"
+        android:text="@string/btn_dollar" />
 
     <Button
         android:id="@+id/btn_euro"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginBottom="11dp"
-        android:onClick="onclick"
-        android:text="@string/btn_euro"
-        tools:ignore="DuplicateIds,OnClick" />
+        android:onClick="onClick"
+        android:text="@string/btn_euro" />
 
     <Button
         android:id="@+id/btn_won"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:onClick="onclick"
-        android:text="@string/btn_won"
-        tools:ignore="OnClick" />
+        android:onClick="onClick"
+        android:text="@string/btn_won" />
+
+    <Button
+        android:id="@+id/btn_opencfg"
+        android:text="@string/btn_opencfg_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="openOne" />
+
 </LinearLayout>
