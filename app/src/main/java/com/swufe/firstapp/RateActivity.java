@@ -201,16 +201,13 @@ public class RateActivity extends AppCompatActivity implements Runnable{
      //   }catch (IOException e){
      //       e.printStackTrace();
      //   }
-        String url = "http://www.usd-cny.com/bankofchina.htm";
+        String url = "https://www.boc.cn/sourcedb/whpj/ ";
         try{
             Document doc = Jsoup.connect(url).get();
             Log.i(TAG,"title:"+doc.title());
             Element table = doc.getElementsByTag("table").first();
             Elements trs = table.getElementsByTag("tr");
             for(Element tr : trs){
-            //    Log.i(TAG,"run:td=" + td);
-            //    Log.i(TAG,"run:td text"+td.text());
-            //    Log.i(TAG,"run:td html"+td.html());
                 Elements tds = table.getElementsByTag("td");
                 if(tds.size()>0){
                     String str = tds.get(0).text();
